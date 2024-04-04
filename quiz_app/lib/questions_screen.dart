@@ -19,9 +19,11 @@ class _QuestionScreenState extends State<QuestionsScreen> {
     return SizedBox(
       width: double.infinity,
       child: Container(
-        margin: const EdgeInsets.all(40),
+        margin: const EdgeInsets.all(
+            40), // kutunun diğer kutularla arasındaki mesafeyi ayarlar
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment
+              .center, //konteynır içindeki widget'ın konumunu ayarlar
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
