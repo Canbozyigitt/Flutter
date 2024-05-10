@@ -15,7 +15,7 @@ class SummaryItem extends StatelessWidget {
 
     return Padding(
       padding: const EdgeInsets.symmetric(
-        vertical: 8,
+        vertical: 9,
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
