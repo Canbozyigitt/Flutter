@@ -25,7 +25,7 @@ class _DiceRollerState extends State<DiceRoller> {
       children: [
         Image.asset(
           activeDiceImage,
-          width: 200,
+          width: 220,
         ),
         TextButton(
             onPressed: rollDice,
